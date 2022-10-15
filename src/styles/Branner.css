@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+.lmj-branner{
+    height: 100px;
+    background-color: rgb(230, 232, 232);
+    border-bottom: 1px solid #000;
+    display: flex;
+}
+
+.titre{
+    text-align: left;
+    text-transform: capitalize;
+    margin: 25px;
+    font-family: 'Roboto',sans-serif;
+
+}
+
+.mySearch{
+    position: absolute;
+    right: 300px;
+    top:45px;
+    height: 25px;
+    width: 200px;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+.btn-search{
+    position:absolute;
+    right: 243px;
+    top:45px;
+    height: 31px;
+    width: 59px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #000;
+    color: blanchedalmond;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+
+}
+
+.btn-search:hover{
+background: rgb(63, 63, 63);
+border: 1px solid rgb(63, 63, 63)  ;
+}
+
+.fa-magnifying-glass{
+    font-size: 1rem;
+    color: rgb(224, 224, 224);
+}
+
+.fa-magnifying-glass:hover{
+     color: #000;
+}
+
+
+.logo{
+    height: 4rem;
+    margin-top: 20px;
+}
+
+.fa-user{
+    position: absolute;
+    right: 120px;
+    top: 45px;
+    color: #000;
+    font-size: 2rem;
+}
+
+.fa-cart-shopping{
+    position: absolute;
+    right: 180px;
+    top: 45px;
+    color: #000;
+    font-size: 2rem;
+}
+
+.fa-user:hover{
+    color: rgb(102, 95, 95);
+ }
+
+ .fa-cart-shopping:hover{
+    color: rgb(102, 95, 95);
+ }
