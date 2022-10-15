@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css';
 import Branner from './Branner';
 import Navbar from './Navbar';
 import Card from './Card'

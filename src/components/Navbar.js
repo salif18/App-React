@@ -1,21 +1,36 @@
-import React from "react"
-import '../styles/Navbar.css'
-import Toggle from "./Toggle"
-const Navbar = () =>{
+import React, { Component } from 'react';
+
+class Navbar extends Component {
+  constructor(props){
+    super(props)
+    this.state ={visibility :false}
+    this.handleClick = this.handleClick.bind(this)
+  }
+
+  handleClick(){
+    this.setState({visibility:true})
+  }
+
+  render() {
     
     return (
-       
-             <nav className='lmj-navbar'>
+      <div>
+          <nav className='lmj-navbar'>
                     
-                      <a  href='#home'>Home</a>
-                      <a  href='#menu'>Menu</a>
-                      <a  href='#contact'>Contact</a>
+                      <a  href='#home'><i class="fa-solid fa-house"></i>Home</a>
+                      <a  href='#menu'><i class="fa-solid fa-bookmark"></i>Menu</a>
+                      <a  href='#contact'><i class="fa-brands fa-telegram"></i>Contact</a>
                      
-                    <><Toggle/></>
+               <button className="btn" onClick={this.handleClick}>
+                  <i className="fa-solid fa-bars"></i>
+                </button>
+            
               </nav>
-      
 
-    )
+      </div>
+    );
+ 
+}
 }
 
-export default Navbar
+export default Navbar;

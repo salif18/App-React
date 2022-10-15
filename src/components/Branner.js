@@ -1,5 +1,5 @@
 import React from "react"
-import '../styles/Branner.css'
+
 import logo from '../assets/salelogo.jpg'
 const Branner = () => {
     const Titre = ''
@@ -8,7 +8,7 @@ const Branner = () => {
         <h1 className='titre'>{Titre}</h1>
         <img className="logo" src={logo} alt="logoshop"/>
         <form>
-            <input className='mySearch' type="text" placeholder="Search"/>
+            <input className='mySearch' type="text" placeholder="Search...."/>
             <button className="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
         <i className="fa-solid fa-user"></i>

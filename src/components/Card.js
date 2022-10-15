@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Card.css'
+
 import logo from '../assets/jord.jpg'
 import logo2 from '../assets/balenciaga.jpg'
 import logo3 from '../assets/bote.jpg'
