@@ -1,0 +1,40 @@
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formLogin input{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #353535;
+    padding:8px;
+    font-size: 15px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.formLogin input:hover{
+    color: rgb(24, 18, 18);
+    font-weight: 700;
+}
+
+.buttonLogin{
+    margin:20px;
+    width: 150px;
+    height: 40px;
+    background: #383838;
+    border: 1px solid #383838;
+    border-radius: 5px;
+    font-size: 16px;
+    color: beige;
+    text-transform: capitalize;
+}
+
+.buttonLogin:hover{
+    background: #000;
+}

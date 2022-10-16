@@ -1,0 +1,92 @@
+.achat-produit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    width: 50%;
+    margin-left: 335px;
+    padding: 10px;
+}
+
+.achat-produit button{
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 15px;
+     background: #383838;
+     border:1px solid #383838;
+     border-radius: 5px;
+     color: #fff;
+
+}
+
+.achat-produit button:hover{
+    background: #000;
+}
+
+.achat-produit .incre{
+    padding-left: 70px;
+    padding-top: 10px;
+    font-weight: 700;
+    margin-bottom:20px;
+    font-size: 1.5rem;
+}
+
+.achat-produit button, span{
+    display: flex;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    margin-right:20px ;
+
+}
+
+span{
+    position: relative;
+    bottom: 280px;
+    right: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:5px;
+    font-size:100px ;
+    margin: 10px;
+}
+
+.span2{
+  position: relative;
+  right: 40px;
+  bottom: 320px;
+}
+
+span img{
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    margin-bottom:20px;
+    opacity:calc(20%) ;
+}
+
+.img-produit{
+    position: absolute;
+    right: 600px;
+    height: 20rem;
+    width: 20rem;
+    margin-top: 20px;
+}
+.form input{
+    margin: 20px;
+
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-add{
+    position: relative;
+    bottom: 100px;
+    text-transform: capitalize;
+}

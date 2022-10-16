@@ -2,10 +2,10 @@ import React from "react"
 
 import logo from '../assets/salelogo.jpg'
 const Branner = () => {
-    const Titre = ''
+    
     return (
     <header className='lmj-branner'>
-        <h1 className='titre'>{Titre}</h1>
+        <h1 className='titre'>Sale</h1>
         <img className="logo" src={logo} alt="logoshop"/>
         <form>
             <input className='mySearch' type="text" placeholder="Search...."/>
@@ -19,4 +19,4 @@ const Branner = () => {
     </header>
         )
 }
-export default Branner
+export default Branner 

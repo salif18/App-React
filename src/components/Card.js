@@ -1,10 +1,10 @@
 import React from 'react'
 
-import logo from '../assets/jord.jpg'
-import logo2 from '../assets/balenciaga.jpg'
-import logo3 from '../assets/bote.jpg'
-import logo4 from '../assets/nike.jpg'
-import logo5 from '../assets/air.jpg'
+import image1 from '../img/jord.jpg'
+import image2 from '../img/balenciaga.jpg'
+import image3 from '../img/bote.jpg'
+import image4 from '../img/nike.jpg'
+import image5 from '../img/air.jpg'
 const Card = () => {
     const name1 ='AIR-jordan'
     const prix1 = 35000
@@ -18,38 +18,38 @@ const Card = () => {
     const prix5 =20000
     return (
         <div className='row'>
-
+   
         <div className='card'>
-          <img className='card-img' src={logo} alt=''/>
+          <img className='card-img' src={image1} alt=''/>
           <h2 className='card-name'>{name1}</h2>
           <p className='card-price'>{prix1} Fcfa</p>
           <button className='card-add'>Ajouter</button>
         </div>
-        
+   
 
         <div className='card'>
-          <img className='card-img' src={logo2} alt=''/>
+          <img className='card-img' src={image2} alt=''/>
           <h2 className='card-name'>{name2}</h2>
           <p className='card-price'>{prix2} Fcfa</p>
           <button className='card-add'>Ajouter</button>
         </div>
 
         <div className='card'>
-          <img className='card-img' src={logo3} alt=''/>
+          <img className='card-img' src={image3} alt=''/>
           <h2 className='card-name'>{name3}</h2>
           <p className='card-price'>{prix3} Fcfa</p>
           <button className='card-add'>Ajouter</button>
         </div>
 
         <div className='card'>
-          <img className='card-img' src={logo4} alt=''/>
+          <img className='card-img' src={image4} alt=''/>
           <h2 className='card-name'>{name4}</h2>
           <p className='card-price'>{prix4} Fcfa</p>
           <button className='card-add'>Ajouter</button>
         </div>
 
         <div className='card'>
-          <img className='card-img' src={logo5} alt=''/>
+          <img className='card-img' src={image5} alt=''/>
           <h2 className='card-name'>{name5}</h2>
           <p className='card-price'>{prix5} Fcfa</p>
           <button className='card-add'>Ajouter</button>

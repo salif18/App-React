@@ -1,40 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+
 
 .row{
    display: flex;
    flex-wrap: wrap;
-   margin-left: 25px;
+   justify-content: center;
    margin-top: 50px;
-  
 }
-
-    
-
+ 
 .card{
-    display: inline-block;
-    margin: 20px;
-    width: 200px;
-    height: auto; 
-    transition: transform , 1s;
-
+    display: inline-block; 
+    margin: 15px;
+    width: 230px; 
+    height: auto;
+    border-radius: 10px;
 }
-
 
 .card:hover{
+    transition: 0.8s;
     cursor: pointer;
-    transition: scale(1.08);
+    background-color: rgb(232, 233, 233);
 }
 
 .card-img{
     width: 220px;
     height: 220px;
-   
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .card-name{
     text-transform: capitalize;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
+    transition: margin-right 2s;
+    margin: 5px;
 }
 
 .card-price{
@@ -42,11 +41,11 @@
     font-weight: 300;
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
-
+    margin: 10px;
 }
 
 .card-add{
-   background-color: black;
+   background-color: #383838;
    height: 30px;
    width:100px ;
    color: beige;
@@ -57,11 +56,13 @@
    border-radius: 5px;
    cursor: pointer;
    font-weight: 500;
+   border: 1px solid #000;
+   margin-top:15px ;
+   margin-bottom: 20px;
 }
 
 .card-add:hover{
-    background-color: rgb(255, 59, 75);
-    color: #000;
-    border: 1px solid rgb(255, 59, 75);
+    background-color: #000;
+    color:#fff;
     font-weight: 400;
 }

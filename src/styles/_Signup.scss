@@ -1,0 +1,46 @@
+
+.form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-left: 400px;
+}
+
+.form input{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #454545;
+    border-radius: 5px;
+    margin:20px;
+    width: 400px;
+    height: 40px;
+    padding: 8px;
+    font-size: 15px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.form input:hover{
+    color: rgb(24, 18, 18);
+    font-weight: 700;
+}
+
+.buttonFormulaire{
+    height: 40px;
+    width: 150px;
+    margin:20px;
+    background: #383838;
+    border: 1px solid #454545;
+    border-radius: 5px;
+    cursor: pointer;
+    color: beige;
+    text-transform: capitalize;
+    font-size:16px ;
+}
+
+.buttonFormulaire:hover{
+    background: #000;
+}
+
